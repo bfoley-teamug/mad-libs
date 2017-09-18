@@ -40,7 +40,7 @@ go.addEventListener('click', (e) => {
   const newWordD = inputD.value;
   const newWordE = inputE.value;
   const newWordF = inputF.value;
-  const newWordG = inputG.value;  
+  const newWordG = inputG.value; 
   const newWordH = inputH.value; 
   const newWordI = inputI.value; 
   const newWordJ = inputJ.value; 
@@ -48,9 +48,7 @@ go.addEventListener('click', (e) => {
   const p = document.getElementById('result');
   console.log("Today I drove to the " + newWordA);
   
-  p.textContent = "This morning when I woke up in my " + newWordA + ",  I had a craving for some " + newWordB + ". I decided to find some " + newWordB + ", so I " + newWordC + " on over to the neighbor's house and knocked on their " + newWordD +". They " + newWordE + " invited me inside and gave me some of their leftover " + newWordB +". I asked how their new job was as a " + newWordF + " and they answered it was ' " + newWordG + " ' but their co-workers were " + newWordH + ". I said thanks for the " + newWordB + " and have a great day! As I walked out the " + newWordD + ", I waved and " + newWordI + ". I told myself I will give them some " + newWordJ + " as a token of my appreciation.";               
+  p.innerHTML = "<p>This morning when I woke up in my <span class='highlight'>" + newWordA + "</span>,  I had a craving for some <span class='highlight'>" + newWordB + "</span>. I decided to find some <span class='highlight'>" + newWordB + "</span>, so I <span class='highlight'>" + newWordC + "</span> on over to the neighbor's house and knocked on their <span class='highlight'>" + newWordD +"</span>. They <span class='highlight'>" + newWordE + "</span> invited me inside and gave me some of their leftover <span class='highlight'>" + newWordB +"</span>. I asked how their new job was as a <span class='highlight'>" + newWordF + "</span> and they answered it was '<span class='highlight'>" + newWordG + "</span>' but their co-workers were <span class='highlight'>" + newWordH + "</span>. I said thanks for the <span class='highlight'>" + newWordB + "</span> and have a great day! As I walked out the <span class='highlight'>" + newWordD + "</span>, I waved and <span class='highlight'>" + newWordI + "</span>. I told myself I will give them some <span class='highlight'> " + newWordJ + "</span> as a token of my appreciation.</p>";               
  }); 
-                    
-                    
-                    
+                 
                     

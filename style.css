@@ -45,3 +45,8 @@ button:focus {
   border: solid 2px;
   background-color: lavender;
 }
+
+.highlight {
+  display: inline;
+  background-color: #ffe8f9; 
+}
