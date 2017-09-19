@@ -1,0 +1,1 @@
+This is a basic Mad Libs application, because I have fond memories of playing mad libs as a kid. ~
